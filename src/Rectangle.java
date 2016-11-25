@@ -1,16 +1,9 @@
-
-
 public class Rectangle {
 
     int a;
     int b;
 
-    Rectangle() {
-        a = 5;
-        b = 10;
-    }
-
-    Rectangle(int a , int b) {
+    Rectangle(int a, int b) {
         this.a = a;
         this.b = b;
     }
@@ -24,5 +17,3 @@ public class Rectangle {
     }
 
 }
-
-
