@@ -6,7 +6,6 @@ public class RectangleTest {
     @Test
     public void obliczPole() {
         Rectangle prostokat1 = new Rectangle(2, 5);
-        prostokat1.obliczPole();
         Assert.assertEquals(10, prostokat1.obliczPole());
     }
 
@@ -15,9 +14,8 @@ public class RectangleTest {
         Rectangle prostokat1 = new Rectangle(4, 7);
         Assert.assertEquals(22, prostokat1.obliczObwod());
 
-        Rectangle prostokat2 = new Rectangle(3,5);
+        Rectangle prostokat2 = new Rectangle(3, 5);
         Assert.assertEquals(16, prostokat2.obliczObwod());
-
     }
 
 }

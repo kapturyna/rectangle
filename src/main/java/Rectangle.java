@@ -1,7 +1,8 @@
 public class Rectangle {
 
-    int a;
-    int b;
+    private int a;
+
+    private int b;
 
     Rectangle(int a, int b) {
         this.a = a;
